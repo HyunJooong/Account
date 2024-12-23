@@ -11,7 +11,7 @@ class AccountDtoTest {
         //then
 
         AccountDto accountDto = new AccountDto();
-        accountDto.setAccountNum("추현중 계좌번호");
+        accountDto.setAccountNum("계좌번호");
 
         System.out.println(accountDto.getAccountNum());
 
